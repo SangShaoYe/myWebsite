@@ -264,21 +264,26 @@ a {
 .older-posts {
     right: 0;
 }
-.post:after {
-    display: block;
-    content: "";
-    width: 7px;
-    height: 7px;
-    border: #E7EEF2 1px solid;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    margin-left: -5px;
-    background: #FFF;
-    border-radius: 100%;
-    box-shadow: #FFF 0 0 0 5px;
+@media only screen and (max-width:768px ) {
+	.post{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 10px;
+	}
+	.copyright{
+		font-size: 12px;
+		width: 100%;
+	}
+	.page-title{
+		font-size: 24px;
+	}
+	.page-description{
+		font-size: 20px;
+	}
+	.page-number{
+		margin-left: -60px;
+	}
 }
-
 
 
 
