@@ -1,5 +1,5 @@
 # 欢迎进入我的博客
->  没错，my name is SangShaoYe.2018-2-12
+>  没错，my name is SangShaoYe.打算用一个博客框架，推翻现在这套。
 
 ---
 
